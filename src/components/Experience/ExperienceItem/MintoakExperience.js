@@ -1,18 +1,28 @@
 import React from "react";
 import MintoakSvg from "../../../images/mintoak.svg";
+import { CustomLink } from "../../CustomLink";
 
 export const MintoakExperience = () => {
   return (
     <div className='px-5 lg:px-20 mt-5'>
-      <div className='flex gap-2'>
-        <img
-          src={MintoakSvg}
-          className='h-[40px] lg:h-[50px] rounded-full'
-          alt='company'
-        />
-        <p className='font-extrabold mt-3 lg:text-[22px] text-[18px]'>
-          Mintoak Innovations Pvt Ltd
-        </p>
+      <div className='grid grid-cols-1 md:grid-cols-2 justify-between w-full'>
+        <div className='flex gap-2'>
+          <img
+            src={MintoakSvg}
+            className='h-[40px] lg:h-[50px] rounded-full'
+            alt='company'
+            loading='lazy'
+          />
+
+          <CustomLink to={"https://uat.mintoak.com/"}>
+            <p className='font-extrabold mt-2 md:mt-3 lg:text-[22px] text-[18px]'>
+              Mintoak Innovations Pvt Ltd
+            </p>
+          </CustomLink>
+        </div>
+        <div className='px-10 md:text-right md:mt-3 font-bold'>
+          September,2022 - Present
+        </div>
       </div>
 
       <div className='list_wrapper lg:px-10'>

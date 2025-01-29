@@ -1,7 +1,5 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import Experience2 from "../Images/ExperienceIMG.png";
-import experienceJson from "../../data/Experience";
 import {
   MintoakExperience,
   TechnoBuxExperience,
@@ -13,7 +11,7 @@ const Experience = () => {
     <div className='bg-[#1b1c18] pt-10 min-h-screen pb-10 text-white lg:py-32 md:px-10 lg:px-52 xl:px-60'>
       <div className='flex lg:gap-1 gap-4 pt-[25px] px-5'>
         <div>
-          <img src={Experience2} className='h-[50px] rounded-full' />
+          <img alt="ExperienceImg" src={Experience2} className='h-[50px] rounded-full' loading='lazy' />
         </div>
         <div>
           <h1 className='text-[24px] mt-3 uppercase lg:ml-3'>Experience :</h1>

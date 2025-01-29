@@ -20,7 +20,7 @@ const Skills = () => {
             <i className='fa-solid fa-graduation-cap'></i> Experience &
             Education :
           </h1>
-          <div className='grid grid-cols-2 lg:text-[20px] lg:mt-16 px-5'>
+          <div className='grid grid-cols-2 lg:text-[20px] lg:mt-12 px-5'>
             <div className='mt-6 lg:text-[20px]'>
               <div className='max-w-md w-full'>
                 <ExperienceCard
@@ -31,14 +31,14 @@ const Skills = () => {
               </div>
               <div className='max-w-md w-full'>
                 <ExperienceCard
-                  yearRange='2020 - Aug 2022'
+                  yearRange='April 2022 - Aug 2022'
                   company='Technobux'
                   title='Front-end Developer'
                 />
               </div>
               <div className='max-w-md w-full'>
                 <ExperienceCard
-                  yearRange='2020 - 2022'
+                  yearRange='2020 - April 2022'
                   company='Global Logic(client Google)'
                   title='Content Engineer Machine Learning'
                 />

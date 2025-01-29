@@ -1,17 +1,27 @@
 import GLImage from "../../../images/GL.png";
+import { CustomLink } from "../../CustomLink";
 
 export const GlobalLogicExperience = () => {
   return (
     <div className='px-5 lg:px-20 mt-5'>
-      <div className='flex gap-2'>
-        <img
-          src={GLImage}
-          className='h-[40px] lg:h-[50px] rounded-full'
-          alt='company'
-        />
-        <p className='font-extrabold mt-1.5 lg:text-[22px] text-[18px]'>
-          Global logic( client-Google Inc)
-        </p>
+      <div className='grid grid-cols-1 md:grid-cols-2 justify-between w-full'>
+        <div className='flex gap-2'>
+          <img
+            src={GLImage}
+            className='h-[40px] lg:h-[50px] rounded-full'
+            alt='company'
+            loading='lazy'
+          />
+          <CustomLink to={"https://www.globallogic.com/"}>
+            <p className='font-extrabold mt-1.5 lg:text-[22px] text-[18px]'>
+              Global logic( client-Google Inc)
+            </p>
+          </CustomLink>
+        </div>
+
+        <div className='px-12 md:text-right md:mt-3 font-bold'>
+          March,2020 - April,2022
+        </div>
       </div>
 
       <div className='list_wrapper lg:px-10'>

@@ -7,7 +7,8 @@ const SkillGrid = () => {
       <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
         <CircularProgress percentage={92} label='Next.js' color='#FFC107' />
         <CircularProgress percentage={100} label='React.js' color='#FFC107' />
-        <CircularProgress percentage={100} label='Javscript' color='#FFC107' />
+        <CircularProgress percentage={100} label='Javascript' color='#FFC107' />
+        <CircularProgress percentage={82} label='Typescript' color='#FFC107' />
         <CircularProgress percentage={100} label='HTML' color='#FFC107' />
         <CircularProgress percentage={100} label='CSS' color='#FFC107' />
         <CircularProgress

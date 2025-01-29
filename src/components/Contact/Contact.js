@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { CustomLink } from "../CustomLink/CustomLink";
 import About from "../../data/About";
 import ContactInfo from "../About/ContactInfo";
 

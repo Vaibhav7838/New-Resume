@@ -1,12 +1,10 @@
 import React from "react";
 import PersonalInfo from "./PersonalInfo";
 import AboutDescription from "./AboutDescription";
-import ContactInfo from "./ContactInfo";
 import aboutData from "../../data/About";
-import { Header } from "../Header";
 
 const About = () => {
-  const { personalInfo, aboutDescription, contactInfo } = aboutData;
+  const { personalInfo, aboutDescription } = aboutData;
 
   return (
     <div className="bg-[#1b1c18] text-white px-5 lg:py-0 pb-10 lg:px-52 xl:px-60 md:px-40">

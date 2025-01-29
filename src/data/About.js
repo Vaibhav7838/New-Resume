@@ -4,7 +4,7 @@ const About = {
   },
   aboutDescription: {
     description:
-      "Software Engineer with 4+ years of experience specializing in React.js and Next.js development. Currently at Mintoak Innovations Pvt Ltd, building responsive web applications for banking clients like HDFC, Axis, and Yes Bank. Proficient in modern web technologies including Tailwind CSS, Redux, and Strapi CMS. Strong track record of delivering projects ahead of schedule while maintaining code quality and mentoring junior developers.",
+      "Software Engineer with 3 year and 9 months of experience specializing in React.js and Next.js development. Currently at Mintoak Innovations Pvt Ltd, building responsive web applications for banking clients like HDFC, Axis, and Yes Bank. Proficient in modern web technologies including Tailwind CSS, Redux, and Strapi CMS. Strong track record of delivering projects ahead of schedule while maintaining code quality and mentoring junior developers.",
   },
   contactInfo: [
     {
